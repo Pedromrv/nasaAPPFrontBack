@@ -1,21 +1,21 @@
-# Ejercicio - NasaAPP
+# Exercise - NasaAPP
 
-En este proyecto aplicaremos todo lo aprendido hasta ahora para hacer la **Parte visual de la aplicación**. Debe ser responsive, mobile-first. Usaremos `React` funcional para diseñar el front
+In this project we will apply everything we have learnt so far to make the **visual part of the application**. It must be responsive, mobile-first. We will use functional `React` to design the front end.
 
-## Juntar todo para tener una APP MERN
+## Putting it all together to have a MERN APP
 
-Al final debemos tener una app MERN integrada y funcionando. Desplegar en Heroku para probar que todo funcione como se ha visto en clase
+At the end we should have an integrated and working MERN app. Deploy in Heroku to test that everything works as we have seen in class.
 
-## Requisitos
+## Requirements
 
-Para ello, debes tener en cuenta las siguientes consideraciones, que serán imprescindibles para este proyecto: 
+For this, you must take into account the following considerations, which will be essential for this project: 
 
--   Respetar los principios y técnicas de lo que hemos aprendido durante el curso sobre HTML5, CSS3/SASS, ES6
--   Frontend: Utilizar react FUNCIONAL.
--   JS: manipulación del DOM, asincronía, promesas, fetch/axios, async/await... Utilizar el lenguaje JS con los principios utilizados en clase.
--   Se permite el uso de cualquier  `recurso de terceros`  (librerías, paquetes npm, etc.) que nos pueda facilitar el desarrollo.
--   Gestión del  `control de versiones con GitHub`  desde el principio del proyecto. Rama main, develop y ramas feature correspondientes.
--   Se prestará especial atención a un código limpio, legible, bien documentado, correctamente versionado y fácil de mantener, así como a la aplicación sobre el mismo de los  `principios SOLID`
+- Respect the principles and techniques of what we have learned during the course on HTML5, CSS3/SASS, ES6.
+- Frontend: Use FUNCTIONAL react.
+- JS: DOM manipulation, asynchrony, promises, fetch/axios, async/await... Use the JS language with the principles used in class.
+- The use of any `third party resources` (libraries, npm packages, etc.) that can facilitate development is allowed.
+- Version control management with GitHub from the beginning of the project. Main branch, develop and corresponding feature branches.
+- Special attention will be paid to a clean, readable, well-documented, correctly versioned and easy to maintain code, as well as to the application of the 'SOLID principles'.
 
 
 
