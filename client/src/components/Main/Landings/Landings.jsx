@@ -1,6 +1,8 @@
 import React from "react";
 import {useEffect, useState} from "react";
 import axios from "axios";
+import "./Landings.css";
+import 'leaflet/dist/leaflet.css';
 import { MapContainer } from 'react-leaflet/MapContainer'
 import { TileLayer } from 'react-leaflet/TileLayer'
 import { Marker } from 'react-leaflet/Marker'
