@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const nSchema = {
+const objectSchema = {
     designation: String,
     discovery_date: String,
     h_mag: String,
@@ -13,6 +13,6 @@ const nSchema = {
     orbit_class: String
 }
 
-const neaSchema = mongoose.Schema(nSchema);
-const Nea = mongoose.model('neas', neaSchema);
+const neaSchema = mongoose.Schema(objectSchema);
+const Nea = mongoose.model('Nea', neaSchema);
 module.exports = Nea;

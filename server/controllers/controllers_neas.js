@@ -1,4 +1,4 @@
-const Nea = require('../models/models_neas');
+const Nea = require('../models/nea');
 const { db } = require('../utils/MongoDb')
 
 const getNeas = async (req, res) => {

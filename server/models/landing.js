@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const itemSchema = {
+const objectSchema = {
     name: String,
     id: String,
     nametype: String,
@@ -16,6 +16,6 @@ const itemSchema = {
     }
 }
 
-const landingSchema = mongoose.Schema(itemSchema);
-const Landing = mongoose.model('landings', landingSchema);
+const landingSchema = mongoose.Schema(objectSchema);
+const Landing = mongoose.model('Landing', landingSchema);
 module.exports = Landing;

@@ -1,4 +1,4 @@
-const Landing = require('../models/models_landings')
+const Landing = require('../models/landing')
 const { db } = require('../utils/MongoDb')
 
 const getLandingsMass = async(req, res) => {

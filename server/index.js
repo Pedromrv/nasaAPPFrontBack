@@ -1,7 +1,6 @@
 require('dotenv').config();
 require('./utils/MongoDb');
 const express = require('express');
-const path = require('path');
 const landings = require('./controllers/controllers_landings');
 const neas = require('./controllers/controllers_neas');
 const app = express();
