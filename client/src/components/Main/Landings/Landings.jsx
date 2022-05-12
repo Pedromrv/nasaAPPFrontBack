@@ -6,7 +6,6 @@ import 'leaflet/dist/leaflet.css';
 import { MapContainer } from 'react-leaflet/MapContainer'
 import { TileLayer } from 'react-leaflet/TileLayer'
 import { Marker } from 'react-leaflet/Marker'
-import { Popup } from 'react-leaflet/Popup'
 
 const Landings = () => {
     const [search, setSearch] = useState("");
@@ -17,7 +16,7 @@ const Landings = () => {
                     `http://localhost:3000/api/astronomy/landings/mass`
                 );
                 const data = await resp.data;
-                const dataSliced = data.slice(0,99);
+                const dataSliced = data.slice(0,10);
                 setSearch(dataSliced);
                 console.log(dataSliced);
             } catch (error) {
@@ -26,15 +25,12 @@ const Landings = () => {
         };
         fetchData();
     }, []);
-    return <MapContainer center={[51.505, -0.09]} zoom={13} scrollWheelZoom={false} height={400}>
+    return <MapContainer center={[51.505, -0.09]} zoom={13} scrollWheelZoom={true}>
         <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <Marker position={[51.505, -0.09]}>
-            <Popup>
-                A pretty CSS3 popup. <br /> Easily customizable.
-            </Popup>
         </Marker>
     </MapContainer>
 };
